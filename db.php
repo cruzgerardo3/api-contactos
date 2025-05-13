@@ -1,7 +1,7 @@
 <?php
 $host = "localhost";
-$user = "root"; // Cambia esto si tienes otro usuario
-$pass = "";     // Cambia esto si tu contraseña no está vacía
+$user = "root"; 
+$pass = "";     
 $dbname = "agenda";
 
 $conn = new mysqli($host, $user, $pass, $dbname);

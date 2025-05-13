@@ -1,7 +1,7 @@
 <?php
 include 'db.php';
 
-// Obtener datos del cuerpo de la solicitud
+
 $data = json_decode(file_get_contents("php://input"));
 
 $id = $data->id ?? '';
